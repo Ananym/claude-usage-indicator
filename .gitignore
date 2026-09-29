@@ -1,0 +1,31 @@
+# .NET build output
+bin/
+obj/
+publish/
+TestResults/
+*.user
+*.suo
+*.DotSettings.user
+
+# Editors / IDEs
+.vs/
+.vscode/
+.idea/
+*.swp
+
+# Windows / OneDrive clutter
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Local notes and Claude Code per-user settings
+*.local.md
+.claude/settings.local.json
+
+# Local tooling / scratch
+*.log
+usage-dump.json
+chime.wav
+
+# Project brief (kept local)
+brief.md
